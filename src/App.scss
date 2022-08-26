@@ -1,6 +1,11 @@
- $primary-color:#a8afaf;
+ $primary-color:#ffd700;
+ $primary-light-gray:  #7a8888;
+ $secondray-dark-gray:#4d4d4e;
+ $hover-yellow: #eecd6b;
+  
 
  @import 'animate.css';
+
  @font-face {
   font-family: 'Helvetica Neue';
   src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
@@ -22,4 +27,7 @@
     url('./assets/fonts/CoolveticaRg-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+input,textarea{
+  font-family: 'Helvetica Neue';
 }
